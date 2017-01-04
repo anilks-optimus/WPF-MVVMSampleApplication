@@ -1,0 +1,18 @@
+﻿<Window x:Class="OptimusCertifications.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:OptimusCertifications"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="626.316" Width="943.421">
+    <!--<Window.Resources>
+        <local:Employee x:Key="localEmployee" empName="Anil">            
+        </local:Employee>
+    </Window.Resources>-->
+    <!--DataContext="{StaticResource localEmployee}"-->
+    <Grid>
+    <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="23" Margin="57,41,0,0" TextWrapping="Wrap" 
+             Text="{Binding Path=empName, Mode=OneWay}" VerticalAlignment="Top" Width="120" RenderTransformOrigin="-1.754,-2.787"/>
+    </Grid>
+</Window>

@@ -1,0 +1,29 @@
+﻿<Window x:Class="OptimusCertifications.EmployeeDetail_Normal"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:OptimusCertifications"
+        mc:Ignorable="d"
+        Title="Window1" Height="600" Width="900" >
+    <Grid Margin="50 50 0 0">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50" />
+            <RowDefinition Height="50" />
+            <RowDefinition Height="50" />
+            <RowDefinition Height="50" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="300" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Label Content="Employee Name" FontSize="15" FontWeight="Bold" Grid.Row="0" Grid.Column="0" />
+        <Label Content="Employee ID" FontSize="15" FontWeight="Bold" Grid.Row="1" Grid.Column="0" />
+        <Label Content="Certification ID" FontSize="15" FontWeight="Bold" Grid.Row="2" Grid.Column="0" />
+        <Label Content="Date of Completion" FontSize="15" FontWeight="Bold" Grid.Row="3" Grid.Column="0" />
+        <TextBox FontSize="15" Grid.Row="0" Grid.Column="1" Name="txtEmployeeName" Width="200" Margin="0 10 0 0" />
+        <TextBox FontSize="15" Grid.Row="1" Grid.Column="1" Name="txtEmployeeID" Width="200"  Margin="0 10 0 0" />
+        <TextBox FontSize="15" Grid.Row="2" Grid.Column="1" Name="txtCertificationID" Width="200"  Margin="0 10 0 0" />
+        <TextBox FontSize="15" Grid.Row="3" Grid.Column="1" Name="txtDateOfCompletion" Width="200"  Margin="0 10 0 0" />
+    </Grid>
+</Window>
